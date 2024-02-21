@@ -10,52 +10,51 @@
     <header>
         <h1>Forms</h1>
     </header>
-        <form action="/services/handle-form" method="POST">
-            <fieldset>
+    action="https://formspree.io/f/xqkrqvpv"
+    method="POST"
+            <fieldset class="personal">
                 <legend>Personal Data</legend>
                 <label>
                     First name:
-                    <br><input type="text" name="firstname" size="30" maxlength="50" />
+                    <input type="text" name="firstname" size="30" maxlength="50" />
                 </label>
                 
     
-                <br><label>
+                <label>
                     Last name:
-                    <br><input type="text" name="lastname" size="30" maxlength="70" />
+                    <input type="text" name="lastname" size="30" maxlength="70" />
                 </label>
 
-                <br><label>
+                <label>
                     Street:
-                    <br><input type="text" name="street" size="30" maxlength="50" />
+                    <input type="text" name="street" size="30" maxlength="50" />
                 </label>
 
-                <br><label>
+                <label>
                     Zipcode:
-                    <br><input type="number" name="zipcode" size="30" maxlength="50" />
+                    <input type="number" name="zipcode" size="30" maxlength="50" />
                 </label>
 
-                <br><label>
+                <label>
                     City:
-                    <br><input type="text" name="city" size="30" maxlength="50" />
+                    <input type="text" name="city" size="30" maxlength="50" />
                 </label>
 
-                <br><label>
+                <label>
                     Phone:
-                    <br><input type="tel" name="phone" size="30" maxlength="50" />
+                    <input type="tel" name="phone" size="30" maxlength="50" />
                 </label>
 
-                <br><label>
+                <label>
                     E-Mail:
-                    <br><input type="email" name="email" size="30" maxlength="70" />
+                    <input type="email" name="email" size="30" maxlength="70" />
                 </label>
-                <br>
+                
                 <label>
                     Comments:
-                    <br>
                     <textarea name="comments" cols="30" rows="5" placeholder="Tell us more about important colors"></textarea>
                 </label>
             </fieldset>
-            <br />
             <fieldset>
                 <legend>Produkts</legend>
                
@@ -83,19 +82,19 @@
                     <labelfor="mongodb">MongoDB</label>
                   </div>
 
-                  <br>
-                <label id="bold" for="start">Project Start:</label><br>
+                
+                <label id="bold" for="start">Project Start:</label>
                 <input type="date" name="start" id="start">
 
-                <br>
-                <label id="bold" for="end">Project End</label><br>
+            
+                <label id="bold" for="end">Project End</label>
                 <input type="date" name="end" id="end">
                 
                 <p>
                     <label id="bold" for="category">
                         Category:
-                    </label>
-                   <br> <select id="category" name="category">
+                    </label><br>
+                   <select id="category" name="category">
                         <option value="personal">Personal</option>
                         <option value="buisness">Buisness</option>
                         <option value="fun">Fun</option>
